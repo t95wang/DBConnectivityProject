@@ -1,0 +1,88 @@
+/* The styles for the elements */
+form {
+	display : block;
+	align : center;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+nav, footer{
+	display: block;
+	background-color: navy;
+	color: white;
+	height: 27px;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+nav a {
+	color: white;
+	padding : 10px;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+}
+
+
+h1 {     
+    font-size: 140%;
+    color: teal;
+    margin-bottom: .5em;  
+    text-align: center;  
+}
+
+h2 {     
+    font-size: 140%;
+    color: teal;
+    margin-bottom: .5em;  
+    text-align: center;  
+}    
+h3 {     
+    font-size: 130%;
+    color: teal;
+    margin-bottom: .5em;  
+    text-align: center;  
+}
+label {
+    float: left;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+input {  
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+.seneca {
+	width: 200px;
+}
+.return_button {
+	text-align: left;
+}
+
+form {
+  text-align: center;
+}
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+
+
+	<!-- Specify a JDBC datasource -->
+	<Resource name="jdbc/cjv805_191a34" auth="Container"
+		type="javax.sql.DataSource" username="cjv805_191a34" password="67511186"
+		driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@myoracle12c.senecacollege.ca:1521:oracle12c"
+		maxActive="100" maxIdle="40" />
+	<Resource name="jdbc/oracle" auth="Container" 
+        driverClassName="oracle.jdbc.OracleDriver" 
+        url="jdbc:oracle:thin:@myoracle12c.senecacollege.ca:1521:oracle12c" 
+        username="cjv805_191a34" password="67511186" 
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        logAbandoned="true" removeAbandoned="true" 
+        removeAbandonedTimeout="60" type="javax.sql.DataSource"  />  
+
+</Context>
